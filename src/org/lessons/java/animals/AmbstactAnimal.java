@@ -1,6 +1,6 @@
 package org.lessons.java.animals;
 
-abstract class Animal {
+abstract class AmbstactAnimal {
     // metodi comuni a tutte le classi
     public void sleep() {
         System.out.println("ZZzz... the animal is sleeping...");
