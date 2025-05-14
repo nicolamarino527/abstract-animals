@@ -1,6 +1,6 @@
 package org.lessons.java.animals;
 
-public class Eagle extends Animal implements IFlyer {
+public class Eagle extends AmbstactAnimal implements IFlyer {
     @Override
     public void makeSound() {
         System.out.println("Cow Cow!");

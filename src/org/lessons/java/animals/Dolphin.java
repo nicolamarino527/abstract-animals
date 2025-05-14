@@ -1,6 +1,6 @@
 package org.lessons.java.animals;
 
-public class Dolphin extends Animal implements ISwimmer {
+public class Dolphin extends AmbstactAnimal implements ISwimmer {
     @Override
     public void makeSound() {
         System.out.println("Click click! ");

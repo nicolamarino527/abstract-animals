@@ -1,6 +1,6 @@
 package org.lessons.java.animals;
 
-public class Sparrow extends Animal implements IFlyer {
+public class Sparrow extends AmbstactAnimal implements IFlyer {
     @Override
     public void makeSound() {
         System.out.println("Tweet tweet!");

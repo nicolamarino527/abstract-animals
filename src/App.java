@@ -15,6 +15,7 @@ public class App {
         Dolphin dolphin = new Dolphin();
         dolphin.eat();
         dolphin.makeSound();
+        dolphin.swim();
         dolphin.sleep();
 
         System.out.println("----------------------------------");
@@ -22,6 +23,7 @@ public class App {
         Sparrow sparrow = new Sparrow();
         sparrow.eat();
         sparrow.makeSound();
+        sparrow.fly();
         sparrow.sleep();
 
         System.out.println("----------------------------------");
@@ -29,6 +31,7 @@ public class App {
         Eagle eagle = new Eagle();
         eagle.eat();
         eagle.makeSound();
+        eagle.fly();
         eagle.sleep();
 
     }
